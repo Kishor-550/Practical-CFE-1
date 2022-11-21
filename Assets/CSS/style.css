@@ -4,7 +4,6 @@
     --Grayish-Blue: hsl(231, 7%, 65%);
     --Light-Grayish-Blue: hsl(207, 33%, 95%);
    --primary-color : hsl(255deg 43% 28%);
-    --Red: hsl(0, 100%, 68%);
 }
 
 *{
@@ -71,6 +70,8 @@ nav ul li a{
 }
 .join a{
     color: var(--Light-Grayish-Blue);
+    font-weight: 700;
+
 }
 
 
@@ -144,6 +145,7 @@ nav ul li a{
     margin: 0 10px;
     flex: 1;
     cursor: pointer;
+    font-weight: 700;
 
 }
 #submit:hover{
@@ -178,6 +180,8 @@ nav ul li a{
 /* Bottom ends  */
 .bottom{
     margin: 20px 0;
+    font-weight: 700;
+
 }
 .bottom-links ul{
     display: flex;
